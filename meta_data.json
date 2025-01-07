@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "small business",
+        "2": "productivity",
+        "3": "payment",
+        "4": "analytics"
+    },
+    "description": "This is a plugin for the nexus.io blockchain's market API. See docs in url for more info.",
+    "image": "//meta-q.cdn.bubble.io/f1736287235331x151970428431834400/GlobeBlue1200x1000%20%281%29.png",
+    "license": "open_source",
+    "link": "https://github.com/Nexusoft/LLL-TAO/blob/merging/docs/API/COMMANDS/MARKET.MD",
+    "name": "Nexus - Market API"
+}

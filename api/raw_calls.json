@@ -1,0 +1,271 @@
+{
+    "calls": {
+        "AAD": {
+            "initialized": true,
+            "method": "get",
+            "name": "list/bid",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"list/bid\",\"fields\":{\"_p_result.bids\":{\"ret_value\":\"list.api.1736287129441x829321966472659000.plugin_api.AAD.result.bids\",\"caption\":\"bids\",\"path\":[\"result\",\"bids\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"54.214.118.229:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1.970951 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAD.result.bids\":{\"caption\":\"list/bid result bid\",\"fields\":{\"_p_txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"0115c86a0c5badd10705b709e13fc4738383e0c152194dd7667ce8d4800d004b95d17cf0c83b4ef6105091a72bdc1ad1be59d67a33bac2d38f1ad1d5d116dae3\",\"path\":[\"txid\"]},\"_p_timestamp\":{\"ret_value\":\"number\",\"caption\":\"timestamp\",\"sample_value\":1710348292,\"path\":[\"timestamp\"]},\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"a1c9b698edf211a2c14db4a74888f0cd9d4677c9b1da21d6fbcc53bdebb0d860\",\"path\":[\"owner\"]},\"_p_market\":{\"ret_value\":\"text\",\"caption\":\"market\",\"sample_value\":\"NXS/dist-token\",\"path\":[\"market\"]},\"_p_price\":{\"ret_value\":\"number\",\"caption\":\"price\",\"sample_value\":0,\"path\":[\"price\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"bid\",\"path\":[\"type\"]},\"_p_contract.OP\":{\"ret_value\":\"text\",\"caption\":\"contract OP\",\"sample_value\":\"DEBIT\",\"path\":[\"contract\",\"OP\"]},\"_p_contract.from\":{\"ret_value\":\"text\",\"caption\":\"contract from\",\"sample_value\":\"8CjQwFmUi6Q3KYodDo7FSWNG8Ek2fG4C8cEyn8NXqrTzMNqHNFY\",\"path\":[\"contract\",\"from\"]},\"_p_contract.amount\":{\"ret_value\":\"number\",\"caption\":\"contract amount\",\"sample_value\":1,\"path\":[\"contract\",\"amount\"]},\"_p_contract.token\":{\"ret_value\":\"text\",\"caption\":\"contract token\",\"sample_value\":\"8D7SP2LxKjm3fSWyAhY4BbDDrWdrVSEtepfnnxWYAf3DUhoW2t6\",\"path\":[\"contract\",\"token\"]},\"_p_contract.ticker\":{\"ret_value\":\"text\",\"caption\":\"contract ticker\",\"sample_value\":\"dist-token\",\"path\":[\"contract\",\"ticker\"]},\"_p_order.OP\":{\"ret_value\":\"text\",\"caption\":\"order OP\",\"sample_value\":\"DEBIT\",\"path\":[\"order\",\"OP\"]},\"_p_order.to\":{\"ret_value\":\"text\",\"caption\":\"order to\",\"sample_value\":\"8Ba3TjknaB1KhosXzpkNCFmNVEtttEXozJuQBfh3QkFWZAuTCM3\",\"path\":[\"order\",\"to\"]},\"_p_order.amount\":{\"ret_value\":\"number\",\"caption\":\"order amount\",\"sample_value\":1000000000,\"path\":[\"order\",\"amount\"]},\"_p_order.token\":{\"ret_value\":\"text\",\"caption\":\"order token\",\"sample_value\":\"0\",\"path\":[\"order\",\"token\"]},\"_p_order.ticker\":{\"ret_value\":\"text\",\"caption\":\"order ticker\",\"sample_value\":\"NXS\",\"path\":[\"order\",\"ticker\"]}}}}",
+            "url": "[web server:port]market/list/bid?session=[session]&market=[market pair]",
+            "url_params": {
+                "AAE": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAF": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAG": {
+                    "key": "market pair",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAH": {
+            "initialized": true,
+            "method": "get",
+            "name": "list/ask",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"list/ask\",\"fields\":{\"_p_result.asks\":{\"ret_value\":\"list.api.1736287129441x829321966472659000.plugin_api.AAH.result.asks\",\"caption\":\"asks\",\"path\":[\"result\",\"asks\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"35.89.215.10:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1.094293 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAH.result.asks\":{\"caption\":\"list/ask result ask\",\"fields\":{\"_p_txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"0136d1bbf1d426385173341146bd6bd0c689c06610ebe220108d841bf5a5328a151044f28351d0a8f9c8001a282235e178a7ab2567e4f725bb7a112cf2c18fa2\",\"path\":[\"txid\"]},\"_p_timestamp\":{\"ret_value\":\"number\",\"caption\":\"timestamp\",\"sample_value\":1710348306,\"path\":[\"timestamp\"]},\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"a1c9b698edf211a2c14db4a74888f0cd9d4677c9b1da21d6fbcc53bdebb0d860\",\"path\":[\"owner\"]},\"_p_market\":{\"ret_value\":\"text\",\"caption\":\"market\",\"sample_value\":\"NXS/dist-token\",\"path\":[\"market\"]},\"_p_price\":{\"ret_value\":\"number\",\"caption\":\"price\",\"sample_value\":0,\"path\":[\"price\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"ask\",\"path\":[\"type\"]},\"_p_contract.OP\":{\"ret_value\":\"text\",\"caption\":\"contract OP\",\"sample_value\":\"DEBIT\",\"path\":[\"contract\",\"OP\"]},\"_p_contract.from\":{\"ret_value\":\"text\",\"caption\":\"contract from\",\"sample_value\":\"8Ba3TjknaB1KhosXzpkNCFmNVEtttEXozJuQBfh3QkFWZAuTCM3\",\"path\":[\"contract\",\"from\"]},\"_p_contract.amount\":{\"ret_value\":\"number\",\"caption\":\"contract amount\",\"sample_value\":10000000,\"path\":[\"contract\",\"amount\"]},\"_p_contract.token\":{\"ret_value\":\"text\",\"caption\":\"contract token\",\"sample_value\":\"0\",\"path\":[\"contract\",\"token\"]},\"_p_contract.ticker\":{\"ret_value\":\"text\",\"caption\":\"contract ticker\",\"sample_value\":\"NXS\",\"path\":[\"contract\",\"ticker\"]},\"_p_order.OP\":{\"ret_value\":\"text\",\"caption\":\"order OP\",\"sample_value\":\"DEBIT\",\"path\":[\"order\",\"OP\"]},\"_p_order.to\":{\"ret_value\":\"text\",\"caption\":\"order to\",\"sample_value\":\"8CjQwFmUi6Q3KYodDo7FSWNG8Ek2fG4C8cEyn8NXqrTzMNqHNFY\",\"path\":[\"order\",\"to\"]},\"_p_order.amount\":{\"ret_value\":\"number\",\"caption\":\"order amount\",\"sample_value\":10,\"path\":[\"order\",\"amount\"]},\"_p_order.token\":{\"ret_value\":\"text\",\"caption\":\"order token\",\"sample_value\":\"8D7SP2LxKjm3fSWyAhY4BbDDrWdrVSEtepfnnxWYAf3DUhoW2t6\",\"path\":[\"order\",\"token\"]},\"_p_order.ticker\":{\"ret_value\":\"text\",\"caption\":\"order ticker\",\"sample_value\":\"dist-token\",\"path\":[\"order\",\"ticker\"]}}}}",
+            "url": "[web server:port]market/list/ask?session=[session]&market=[market pair]",
+            "url_params": {
+                "AAI": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAJ": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAK": {
+                    "key": "market pair",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAL": {
+            "initialized": true,
+            "method": "get",
+            "name": "list/executed",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAL",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAL\":{\"caption\":\"list/executed\",\"fields\":{\"_p_result.bids\":{\"ret_value\":\"list.api.1736287129441x829321966472659000.plugin_api.AAL.result.bids\",\"caption\":\"bids\",\"path\":[\"result\",\"bids\"]},\"_p_result.asks\":{\"ret_value\":\"list.api.1736287129441x829321966472659000.plugin_api.AAL.result.asks\",\"caption\":\"asks\",\"path\":[\"result\",\"asks\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"35.89.219.253:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1.626253 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAL.result.bids\":{\"caption\":\"list/executed result bid\",\"fields\":{\"_p_txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"01213ba55b23e735665e4ddc65e211be5b7b19b09d65020aad30a44fc71f99d9cac59915dced7fc5a853070b643800df9cac99ab204b8188b3a554a2cc4ca957\",\"path\":[\"txid\"]},\"_p_timestamp\":{\"ret_value\":\"number\",\"caption\":\"timestamp\",\"sample_value\":1710353827,\"path\":[\"timestamp\"]},\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"a1c9b698edf211a2c14db4a74888f0cd9d4677c9b1da21d6fbcc53bdebb0d860\",\"path\":[\"owner\"]},\"_p_market\":{\"ret_value\":\"text\",\"caption\":\"market\",\"sample_value\":\"dist-token/NXS\",\"path\":[\"market\"]},\"_p_price\":{\"ret_value\":\"number\",\"caption\":\"price\",\"sample_value\":2000000,\"path\":[\"price\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"bid\",\"path\":[\"type\"]},\"_p_contract.OP\":{\"ret_value\":\"text\",\"caption\":\"contract OP\",\"sample_value\":\"DEBIT\",\"path\":[\"contract\",\"OP\"]},\"_p_contract.from\":{\"ret_value\":\"text\",\"caption\":\"contract from\",\"sample_value\":\"8Ba3TjknaB1KhosXzpkNCFmNVEtttEXozJuQBfh3QkFWZAuTCM3\",\"path\":[\"contract\",\"from\"]},\"_p_contract.amount\":{\"ret_value\":\"number\",\"caption\":\"contract amount\",\"sample_value\":10000000,\"path\":[\"contract\",\"amount\"]},\"_p_contract.token\":{\"ret_value\":\"text\",\"caption\":\"contract token\",\"sample_value\":\"0\",\"path\":[\"contract\",\"token\"]},\"_p_contract.ticker\":{\"ret_value\":\"text\",\"caption\":\"contract ticker\",\"sample_value\":\"NXS\",\"path\":[\"contract\",\"ticker\"]},\"_p_order.OP\":{\"ret_value\":\"text\",\"caption\":\"order OP\",\"sample_value\":\"DEBIT\",\"path\":[\"order\",\"OP\"]},\"_p_order.to\":{\"ret_value\":\"text\",\"caption\":\"order to\",\"sample_value\":\"8CjQwFmUi6Q3KYodDo7FSWNG8Ek2fG4C8cEyn8NXqrTzMNqHNFY\",\"path\":[\"order\",\"to\"]},\"_p_order.amount\":{\"ret_value\":\"number\",\"caption\":\"order amount\",\"sample_value\":5,\"path\":[\"order\",\"amount\"]},\"_p_order.token\":{\"ret_value\":\"text\",\"caption\":\"order token\",\"sample_value\":\"8D7SP2LxKjm3fSWyAhY4BbDDrWdrVSEtepfnnxWYAf3DUhoW2t6\",\"path\":[\"order\",\"token\"]},\"_p_order.ticker\":{\"ret_value\":\"text\",\"caption\":\"order ticker\",\"sample_value\":\"dist-token\",\"path\":[\"order\",\"ticker\"]}}},\"plugin_api.AAL.result.asks\":{\"caption\":\"list/executed result ask\",\"fields\":{\"_p_txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"01b97bfd9955d9816177a95d2ff987af69b87a3d79a671cb6f8c674c5b3f7c06c0db3e05749d9053b28bcc67314b7341769ff38d3709e48770075cc7ce4117bb\",\"path\":[\"txid\"]},\"_p_timestamp\":{\"ret_value\":\"number\",\"caption\":\"timestamp\",\"sample_value\":1710361828,\"path\":[\"timestamp\"]},\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"a1c9b698edf211a2c14db4a74888f0cd9d4677c9b1da21d6fbcc53bdebb0d860\",\"path\":[\"owner\"]},\"_p_market\":{\"ret_value\":\"text\",\"caption\":\"market\",\"sample_value\":\"dist-token/NXS\",\"path\":[\"market\"]},\"_p_price\":{\"ret_value\":\"number\",\"caption\":\"price\",\"sample_value\":2000000,\"path\":[\"price\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"ask\",\"path\":[\"type\"]},\"_p_contract.OP\":{\"ret_value\":\"text\",\"caption\":\"contract OP\",\"sample_value\":\"DEBIT\",\"path\":[\"contract\",\"OP\"]},\"_p_contract.from\":{\"ret_value\":\"text\",\"caption\":\"contract from\",\"sample_value\":\"8CjQwFmUi6Q3KYodDo7FSWNG8Ek2fG4C8cEyn8NXqrTzMNqHNFY\",\"path\":[\"contract\",\"from\"]},\"_p_contract.amount\":{\"ret_value\":\"number\",\"caption\":\"contract amount\",\"sample_value\":2,\"path\":[\"contract\",\"amount\"]},\"_p_contract.token\":{\"ret_value\":\"text\",\"caption\":\"contract token\",\"sample_value\":\"8D7SP2LxKjm3fSWyAhY4BbDDrWdrVSEtepfnnxWYAf3DUhoW2t6\",\"path\":[\"contract\",\"token\"]},\"_p_contract.ticker\":{\"ret_value\":\"text\",\"caption\":\"contract ticker\",\"sample_value\":\"dist-token\",\"path\":[\"contract\",\"ticker\"]},\"_p_order.OP\":{\"ret_value\":\"text\",\"caption\":\"order OP\",\"sample_value\":\"DEBIT\",\"path\":[\"order\",\"OP\"]},\"_p_order.to\":{\"ret_value\":\"text\",\"caption\":\"order to\",\"sample_value\":\"8Ba3TjknaB1KhosXzpkNCFmNVEtttEXozJuQBfh3QkFWZAuTCM3\",\"path\":[\"order\",\"to\"]},\"_p_order.amount\":{\"ret_value\":\"number\",\"caption\":\"order amount\",\"sample_value\":4000000,\"path\":[\"order\",\"amount\"]},\"_p_order.token\":{\"ret_value\":\"text\",\"caption\":\"order token\",\"sample_value\":\"0\",\"path\":[\"order\",\"token\"]},\"_p_order.ticker\":{\"ret_value\":\"text\",\"caption\":\"order ticker\",\"sample_value\":\"NXS\",\"path\":[\"order\",\"ticker\"]}}}}",
+            "url": "[web server:port]market/list/executed?session=[session]&market=[market pair]",
+            "url_params": {
+                "AAM": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAN": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAO": {
+                    "key": "market pair",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAP": {
+            "initialized": true,
+            "method": "get",
+            "name": "create/bid",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAP",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAP\":{\"caption\":\"create/bid\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8B8aVgRLYRvpXU2FBEnxGfxomyEd3Ux1GS8fyU4G2LpjWsjHtKe\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"017c558f19b879144386939fa1de893fa921fb6e058314c671b6c925598716e17f410603867dbcbcf90c73f4bb953750851aaee8707d7ae4a80d751036806175\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.214.188.238:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1384.367483 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]market/create/bid?session=[session]&market=[market pair]&price=[price]&amount=[amount]&from=[from]&to=[to]&pin=[pin]",
+            "url_params": {
+                "AAQ": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAR": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAS": {
+                    "key": "market pair",
+                    "private": true,
+                    "value": ""
+                },
+                "AAT": {
+                    "key": "price",
+                    "private": true,
+                    "value": ""
+                },
+                "AAU": {
+                    "key": "amount",
+                    "private": true,
+                    "value": ""
+                },
+                "AAV": {
+                    "key": "from",
+                    "private": true,
+                    "value": ""
+                },
+                "AAW": {
+                    "key": "to",
+                    "private": true,
+                    "value": ""
+                },
+                "AAX": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAY": {
+            "initialized": true,
+            "method": "get",
+            "name": "create/ask",
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAY",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAY\":{\"caption\":\"create/ask\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8B4U5oxZQd1ZzRFX5igXAVhTsuu6JDB5f4THH8M2oZWHyuzDvtt\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"010902cdad8ec17d7439479b427a9540b855bca85ae2ef720cd40b7115cd7d29d3aa2f012f7e2630fa7968132b9d91b225aa60df44990300dc5e64a0df183d4f\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"35.91.61.253:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1490.143858 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]market/create/ask?session=[session]&market=[market pair]&price=[price]&amount=[amount]&from=[from]&to=[to]&pin=[pin]",
+            "url_params": {
+                "AAZ": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAa": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAb": {
+                    "key": "market pair",
+                    "private": true,
+                    "value": ""
+                },
+                "AAc": {
+                    "key": "price",
+                    "private": true,
+                    "value": ""
+                },
+                "AAd": {
+                    "key": "amount",
+                    "private": true,
+                    "value": ""
+                },
+                "AAe": {
+                    "key": "from",
+                    "private": true,
+                    "value": ""
+                },
+                "AAf": {
+                    "key": "to",
+                    "private": true,
+                    "value": ""
+                },
+                "AAg": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAh": {
+            "initialized": true,
+            "method": "get",
+            "name": "execute/order",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAh",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAh\":{\"caption\":\"execute/order\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"8B8aVgRLYRvpXU2FBEnxGfxomyEd3Ux1GS8fyU4G2LpjWsjHtKe\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"01680396c2ee281fb66744b1f7a545efc80b74730c8bbbb589c5293b3cda3614dfdbcc22265aa63d11052e343d5a8399dd8929d8ee85e8b1d9a2b736e2012e3a\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/execute\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.218.246.251:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1482.615210 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]market/execute/order?session=[session]&txid=[txid]&from=[from]&to=[to]&pin=[pin]",
+            "url_params": {
+                "AAi": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAj": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAk": {
+                    "key": "txid",
+                    "private": true,
+                    "value": ""
+                },
+                "AAl": {
+                    "key": "from",
+                    "private": true,
+                    "value": ""
+                },
+                "AAm": {
+                    "key": "to",
+                    "private": true,
+                    "value": ""
+                },
+                "AAn": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAo": {
+            "initialized": true,
+            "method": "get",
+            "name": "cancel/order",
+            "publish_as": "action",
+            "rank": 6,
+            "ret_value": "api.1736287129441x829321966472659000.plugin_api.AAo",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAo\":{\"caption\":\"cancel/order\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"015b75189eda82aecb95421794a82ebdb184ce9c690e7aa0c7cccab7410f8a1b94816525679bba554ff7722500e3a695bf2e46ec42ae43985fa36db900fd79e0\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"market/cancel\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"54.200.110.10:0\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1577.522620 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]market/cancel/order?session=[session]&txid=[txid]&pin=[pin]",
+            "url_params": {
+                "AAp": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "https://api.distordia.com/"
+                },
+                "AAq": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAr": {
+                    "key": "txid",
+                    "private": true,
+                    "value": ""
+                },
+                "AAs": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "Nexus Market API"
+}
